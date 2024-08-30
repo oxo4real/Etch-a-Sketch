@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: 'Open Sans';
+}
+
+body {
+	background-color: #622725;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100dvh;
+}
+
+#main {
+	display: flex;
+	flex-wrap: nowrap;
+	/* border: 3px black solid; */
+	height: 590px;
+}
+
+#grid {
+	box-sizing: border-box;
+	background-color: white;
+	height: 600px;
+	width: 600px;
+	border: 7px #3c1b1a solid;
+	margin-left: 50px;
+}
+
+#buttons {
+	margin-top: 27px;
+}
+
+#buttons > button {
+	display: block;
+	box-sizing: border-box;
+	width: 311px;
+	height: 70px;
+	background-color: #3c1b1a;
+	border: 2px white solid;
+	border-radius: 15px;
+	font-size: 30px;
+	font-weight: 0;
+	cursor: pointer;
+}
+
+#rgb {
+	margin: 32px 0px;
+}
+
+#etch{
+	font-size: 105px;
+	margin: -30.5px 0 -48px -8px;
+}
+
+#sketch {
+	font-size: 105px;
+	margin: -30px 0  0 -5px;
+}
+
+#a {
+	font-size: 90px;
+	margin-left: -3px;
+}
