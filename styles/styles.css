@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #622725;
+	background-color: #1c2837;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -29,7 +29,7 @@ body {
 	align-items: center;
 	height: 600px;
 	width: 600px;
-	border: 10px #3c1b1a solid;
+	border: 10px #199073 solid;
 	margin-left: 50px;
 }
 
@@ -42,8 +42,8 @@ body {
 	box-sizing: border-box;
 	width: 311px;
 	height: 70px;
-	background-color: #3c1b1a;
-	border: 2px white solid;
+	background-color: #1c2837;
+	border: 2px #199073 solid;
 	border-radius: 15px;
 	font-size: 30px;
 	font-weight: 0;
@@ -57,14 +57,17 @@ body {
 #etch{
 	font-size: 105px;
 	margin: -30.5px 0 -48px -8px;
+	color: #f4bb53;
 }
 
 #sketch {
 	font-size: 105px;
 	margin: -30px 0  0 -5px;
+	color: #f4bb53;
 }
 
 #a {
 	font-size: 90px;
 	margin-left: -3px;
+	color: #199073;
 }
